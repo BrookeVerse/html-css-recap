@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  background: #f8f0e3;
 }
 
 main {
@@ -9,10 +10,15 @@ main {
 
 h1 {
   padding: 40px;
+  color: cornflowerblue;
+  text-decoration: underline;
 }
 
-input {
+input[type="text"] {
   margin: 20px;
+  padding: 10px;
+  border: 2px solid blueviolet;
+  border-radius: 10px;
 }
 
 ol {
