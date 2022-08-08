@@ -11,6 +11,10 @@ h1 {
   padding: 40px;
 }
 
+input {
+  margin: 20px;
+}
+
 ol {
   list-style: none;
   counter-reset: item;
@@ -18,13 +22,6 @@ ol {
 li {
   counter-increment: item;
   margin-bottom: 5px;
-}
-
-li::before {
-  margin-right: 10px;
-  content: counter(item);
-  text-align: center;
-  display: inline-block;
 }
 
 img {
@@ -38,5 +35,18 @@ footer {
 }
 
 .toDo {
+  color: blueviolet;
+  padding: 20px;
+  list-style: none;
+}
+
+.toDo::before {
+  margin-right: 10px;
+  content: counter(item);
+  text-align: center;
+  display: inline-block;
+}
+
+#navList {
   color: blueviolet;
 }
