@@ -58,6 +58,12 @@ h4 {
   display: inline-block;
 }
 
+.todo-item {
+  font-weight: bold;
+  list-style: none;
+  margin: 10px 0;
+}
+
 #navList {
   color: blueviolet;
 }
