@@ -41,6 +41,10 @@ footer {
   text-align: center;
 }
 
+h4 {
+  color: cornflowerblue;
+}
+
 .toDo {
   color: blueviolet;
   padding: 20px;
