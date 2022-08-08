@@ -7,8 +7,24 @@ main {
   text-align: center;
 }
 
+h1 {
+  padding: 40px;
+}
+
+ol {
+  list-style: none;
+  counter-reset: item;
+}
 li {
-  display: block;
+  counter-increment: item;
+  margin-bottom: 5px;
+}
+
+li::before {
+  margin-right: 10px;
+  content: counter(item);
+  text-align: center;
+  display: inline-block;
 }
 
 img {
@@ -17,7 +33,7 @@ img {
   margin: 0 auto;
 }
 footer {
-  margin: 40px;
+  margin: 100px;
   text-align: center;
 }
 
